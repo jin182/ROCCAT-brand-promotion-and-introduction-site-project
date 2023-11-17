@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #141617;
+}
+
+a {
+    all: unset;
+}
+
+p {
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.inner {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #141617;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2 000;
+}
+
+.head-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-name {
+    font-weight: bold;
+    font-size: 1.4rem;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.head-main {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 1rem 0;
+    margin: 0.3rem 0;
+    overflow: hidden;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.head-list {
+    margin: 0 10px;
+    cursor: pointer;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.img_container {
+    background-color: #141617;
+    justify-content: center;
+    color: white;
+    margin: 25px auto 15px auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    z-index: 10000;
+}
+
+#red {
+    color: orangered;
+    font-size: 1.5rem;
+    font-weight: bold;
+    z-index: 1000;
+}
+
+#main2 {
+    font-size: 1.2rem;
+    margin-top: 8px;
+    z-index: 1000;
+}
+
+section {
+    background-color: #141617;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.img_content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.img_section {
+    background-color: #141617;
+    text-align: left;
+    flex: 1;
+    margin: 50px 0 60px 0;
+    padding: 0 10px;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    margin-bottom: 4px;
+    margin-top: 150px;
+    z-index: 500;
+}
+
+.img_sec {
+    margin-top: 110px;
+    width: 230px;
+    height: 230px;
+    flex-shrink: 0;
+    z-index: 500;
+}
+
+.img_section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.img_button {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    width: 130px;
+    height: 65px;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
+.features-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature {
+    margin: 10px;
+    padding: 15px;
+    margin-right: 25px;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.feature-icon {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.roccat-image {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.service-img {
+    background-color: rgb(248, 244, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+#roccat_id {
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-bottom: 2px;
+}
+
+footer {
+    height: 30%;
+    background-color: black;
+    margin-top: 155px;
+    color: white;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_content {
+    width: 120px;
+    height: 35px;
+    margin: 5px 5px;
+    text-align: center;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer_content i {
+    margin-left: 3px;
+}
+.counselor-section img {
+    width: 280px;
+    height: 160px;
+}
+
+.rc {
+    color: white;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.counselor-section {
+    margin-top: 45px;
+}
+
+.payment-button {
+    width: 150px;
+    height: 55px;
+    background-color: orangered;
+    color: white;
+}
+@media only screen and (min-width: 1000px) {
+    .inner {
+        max-width: 1000px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .head-main {
+        display: none;
+    }
+}
