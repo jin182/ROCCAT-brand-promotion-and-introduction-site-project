@@ -32,7 +32,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 2 000;
+    z-index: 2000;
 }
 
 .head-container {
@@ -65,6 +65,10 @@ header {
     margin: 0 10px;
     cursor: pointer;
     font-family: 'Black Han Sans', sans-serif;
+}
+
+.frist-container {
+    height: 700px;
 }
 
 .img_container {
@@ -147,10 +151,11 @@ section {
 }
 
 .feature {
+    font-weight: bold;
     margin: 10px;
     padding: 15px;
     margin-right: 25px;
-    width: 300px;
+    width: 350px;
     height: 150px;
     display: flex;
     flex-direction: column;
@@ -159,6 +164,7 @@ section {
 }
 
 .feature-icon {
+    color: orangered;
     font-weight: bold;
     font-size: 25px;
     margin-bottom: 10px;
@@ -172,6 +178,7 @@ section {
 }
 
 .service-img {
+    height: 1000px;
     background-color: rgb(248, 244, 226);
     display: flex;
     justify-content: center;
@@ -186,6 +193,7 @@ section {
     color: black;
     font-weight: bold;
     margin: 0 auto;
+    margin-top: 40px;
     margin-bottom: 2px;
 }
 
@@ -216,7 +224,9 @@ footer {
 .footer_content i {
     margin-left: 3px;
 }
-.counselor-section img {
+.img1,
+.img2,
+.img3 {
     width: 280px;
     height: 160px;
 }
@@ -227,7 +237,15 @@ footer {
 }
 
 .counselor-section {
+    width: 300px;
     margin-top: 45px;
+}
+.counselor-section .inner {
+    display: flex;
+}
+.vertical-container {
+    display: flex;
+    justify-content: space-between;
 }
 
 .payment-button {
@@ -236,6 +254,17 @@ footer {
     background-color: orangered;
     color: white;
 }
+.title {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 150px;
+}
+
+button {
+    font-family: 'Gothic A1', sans-serif;
+}
 @media only screen and (min-width: 1000px) {
     .inner {
         max-width: 1000px;
@@ -243,7 +272,12 @@ footer {
 }
 
 @media only screen and (max-width: 500px) {
-    .head-main {
+    .head-main,
+    .roccat-image,
+    .Counselor {
         display: none;
+    }
+    body {
+        background-color: rgb(248, 244, 226);
     }
 }
